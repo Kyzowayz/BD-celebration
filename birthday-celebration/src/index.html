@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Happy Birthday Roshika!</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <!-- Floating hearts background -->
+    <div id="floating-hearts"></div>
+    <!-- Confetti burst -->
+    <div id="confetti-burst"></div>
+
+    <div class="balloons">
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+      <div class="balloon"></div>
+    </div>
+    <h1
+      style="
+        position: relative;
+        z-index: 2;
+        font-family: 'Pacifico', cursive, 'Segoe Script', 'Comic Sans MS', sans-serif;
+        font-size: 3.2em;
+        color: #ff4081;
+        margin-bottom: 0.2em;
+        letter-spacing: 2px;
+        padding: 0.1em 0.2em;
+        border-radius: 18px;
+      "
+    >
+      🎉 Happy Birthday Kristina! 🎂
+    </h1>
+    <div class="message" id="main-message">
+      Wishing you a day filled with laughter, love, and magical moments.<br />
+      May your dreams soar as high as these balloons!<br />
+      <strong>Have a uniquely wonderful year ahead!</strong>
+    </div>
+    <div class="cake" id="cake">
+      <div class="cake-base"></div>
+      <div class="cake-top"></div>
+      <!-- Sprinkles -->
+      <div class="cake-sprinkle sprinkle1"></div>
+      <div class="cake-sprinkle sprinkle2"></div>
+      <div class="cake-sprinkle sprinkle3"></div>
+      <div class="cake-sprinkle sprinkle4"></div>
+      <div class="cake-sprinkle sprinkle5"></div>
+      <div class="cake-sprinkle sprinkle6"></div>
+      <!-- Cute face -->
+      <div class="cake-face">
+        <div class="cake-eye"></div>
+        <div class="cake-smile"></div>
+        <div class="cake-eye"></div>
+      </div>
+      <div class="candle"></div>
+      <div
+        class="flame"
+        id="flame"
+        style="cursor: pointer"
+        title="Blow out the candle!"
+      ></div>
+    </div>
+    <div
+      class="message"
+      id="wish-message"
+      style="
+        display: none;
+        background: #fffbe0;
+        color: #ff4081;
+        font-size: 1.3em;
+        border: 2px dashed #ffb347;
+      "
+    >
+      💖 Make a wish, Kristina! 💖<br />
+      May your year be as bright as your smile!
+    </div>
+    <div class="signature">
+      With lots of joy,<br />
+      <span
+        style="
+          color: #ff4081;
+          font-weight: bold;
+          font-size: 1.15em;
+          letter-spacing: 1px;
+        "
+        >By Rahul</span
+      >
+    </div>
+
+    <!-- Add this popup letter markup just before the closing </body> tag -->
+    <div
+      id="letter-popup"
+      style="
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.35);
+        z-index: 9999;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <div
+        style="
+          background: #fffbe0;
+          border-radius: 18px;
+          box-shadow: 0 8px 40px #ffb34755;
+          padding: 2.5em 2em 2em 2em;
+          max-width: 350px;
+          margin: auto;
+          border: 2px solid #ffb347;
+          position: relative;
+          animation: letterPop 0.7s cubic-bezier(0.4, 2, 0.6, 1);
+        "
+      >
+        <div style="font-size: 2em; text-align: center; margin-bottom: 0.5em">
+          💌
+        </div>
+        <div
+          style="
+            font-size: 1.15em;
+            color: #e07a5f;
+            text-align: center;
+            margin-bottom: 1em;
+          "
+        >
+          Dear Kristina Bune,<br />
+          <span style="color: #333; font-size: 0.95em">
+            Wishing you a magical birthday filled with love, laughter, and
+            dreams come true.<br />
+            May your heart always be as bright as your smile!<br />
+            <br />
+            With lots of joy,<br />
+            <span style="color: #ff4081; font-weight: bold">Rahul</span>
+          </span>
+        </div>
+        <button
+          id="close-letter"
+          style="
+            display: block;
+            margin: 1em auto 0 auto;
+            background: #ffb347;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            padding: 0.5em 1.5em;
+            font-size: 1em;
+            cursor: pointer;
+            font-weight: bold;
+          "
+        >
+          Close
+        </button>
+      </div>
+    </div>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
