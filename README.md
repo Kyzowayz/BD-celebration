@@ -4,18 +4,7 @@
 This project is a festive birthday celebration webpage designed to wish someone a happy birthday with vibrant visuals, animations, and interactive elements. The webpage features balloons, a cake with a cute face, and a candle that can be blown out to reveal a special message.
 
 ## Project Structure
-The project is organized as follows:
-
-```
-birthday-celebration
-├── src
-│   ├── index.html        # Main HTML document for the birthday celebration webpage
-│   ├── styles
-│   │   └── main.css      # CSS styles for the webpage
-│   └── scripts
-│       └── main.js       # JavaScript code for interactive elements
-└── README.md             # Documentation for the project
-```
+The project is organized as follows
 
 ## Setup Instructions
 1. **Clone the Repository**
